@@ -1,0 +1,71 @@
+{
+    "name": "Default",
+    "maps": [
+        {
+            "name": "Pathing",
+            "id": "44299454-e37b-4ea9-bc4b-b241e8abd7e5",
+            "actions": [
+                {
+                    "name": "StartPathing",
+                    "type": "Button",
+                    "id": "5404cf2c-e0ef-4db4-89a1-2635924dcd2d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ToggleWall",
+                    "type": "Button",
+                    "id": "ebcd5547-22e2-4544-8f8c-83cf3c41d6a2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "EraseWall",
+                    "type": "Button",
+                    "id": "cb22997d-d769-4ab7-8e96-0fcdea10052c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c7f0be8e-7e6b-452e-bb6b-b67dabf489c9",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "StartPathing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8445026a-a7af-444c-bdda-b78168d2e35b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleWall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "54bb8718-6076-4900-91ca-56d543f0a7e6",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "EraseWall",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
